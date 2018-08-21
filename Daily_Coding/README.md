@@ -63,44 +63,53 @@ If using a language that has no pointers (such as Python), you can assume you ha
 
 - [Answer #6]()
 ---
-Problem #7
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Facebook.
+### Problem #7
 Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the number of ways it can be decoded.
 For example, the message '111' would give 3, since it could be decoded as 'aaa', 'ka', and 'ak'.
-You can assume that the messages are decodable. For example, '001' is not allowed.
-Problem #8
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+
+You can assume that the messages are decodable. 
+For example, '001' is not allowed.
+
+- [Answer #7]()
+---
+## Problem #8
 A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
 Given the root to a binary tree, count the number of unival subtrees.
+
 For example, the following tree has 5 unival subtrees:
  
- 
-  0
+   0
   / \
  1   0
     / \
    1   0
   / \
  1   1
-Problem #9
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Airbnb.
+ 
+- [Answer #8]()
+---
+## Problem #9
 Given a list of integers, write a function that returns the largest sum of non-adjacent numbers. Numbers can be 0 or negative.
+
 For example, [2, 4, 6, 2, 5] should return 13, since we pick 2, 6, and 5. [5, 1, 1, 5]should return 10, since we pick 5 and 5.
 Follow-up: Can you do this in O(N) time and constant space?
-Problem #10
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Apple.
+
+- [Answer #9]()
+---
+### Problem #10
 Implement a job scheduler which takes in a function f and an integer n, and calls f after nmilliseconds.
-Problem #11
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Twitter.
+
+- [Answer #10]()
+---
+### Problem #11
 Implement an autocomplete system. That is, given a query string s and a set of all possible query strings, return all strings in the set that have s as a prefix.
+
 For example, given the query string de and the set of strings [dog, deer, deal], return [deer, deal].
 Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
-Problem #12
+
+- [Answer #10]()
+---
+### Problem #12
 Good morning! Here's your coding interview problem for today.
 This problem was asked by Amazon.
 There exists a staircase with N steps, and you can climb up either 1 or 2 steps at a time. Given N, write a function that returns the number of unique ways you can climb the staircase. The order of the steps matters.
