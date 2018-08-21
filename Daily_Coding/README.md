@@ -154,30 +154,34 @@ You should be as efficient with time and space as possible.
 - [Answer #16]()
 ---
 ## Problem #17
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
 Suppose we represent our file system by a string in the following manner:
-The string "dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext" represents:
-dir
-    subdir1
-    subdir2
-        file.ext
 
+The string "dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext" represents:
+
+    dir
+        subdir1
+        subdir2
+            file.ext
 
 The directory dir contains an empty sub-directory subdir1 and a sub-directory subdir2containing a file file.ext.
+
 The string "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext" represents:
-dir
-    subdir1
-        file1.ext
-        subsubdir1
-    subdir2
-        subsubdir2
-            file2.ext
+
+    dir
+        subdir1
+            file1.ext
+            subsubdir1
+        subdir2
+            subsubdir2
+                file2.ext
 
 
 The directory dir contains two sub-directories subdir1 and subdir2. subdir1 contains a file file1.ext and an empty second-level sub-directory subsubdir1. subdir2 contains a second-level sub-directory subsubdir2 containing a file file2.ext.
+
 We are interested in finding the longest (number of characters) absolute path to a file within our file system. For example, in the second example above, the longest absolute path is "dir/subdir2/subsubdir2/file2.ext", and its length is 32 (not including the double quotes).
+
 Given a string representing the file system in the above format, return the length of the longest absolute path to a file in the abstracted file system. If there is no file in the system, return 0.
+
 Note:
 The name of a file contains at least a period and an extension.
 The name of a directory or sub-directory will not contain a period.
@@ -187,11 +191,11 @@ The name of a directory or sub-directory will not contain a period.
 ## Problem #18
 Given an array of integers and a number k, where 1 <= k <= length of the array, compute the maximum values of each subarray of length k.
 
-For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7, 8, 8], since:
-10 = max(10, 5, 2)
-7 = max(5, 2, 7)
-8 = max(2, 7, 8)
-8 = max(7, 8, 7)
+    For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7, 8, 8], since:
+        10 = max(10, 5, 2)
+        7 = max(5, 2, 7)
+        8 = max(2, 7, 8)
+        8 = max(7, 8, 7)
 
 Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
 
@@ -219,26 +223,42 @@ Do this in O(M + N) time (where M and N are the lengths of the lists) and consta
 ## Problem #21
 
 Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
-For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
-Problem #22
-Given a dictionary of words and a string made up of those words (no spaces), return the original sentence in a list. If there is more than one possible reconstruction, return any of them. If there is no possible reconstruction, then return null.
-For example, given the set of words 'quick', 'brown', 'the', 'fox', and the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'].
-Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
 
-##Problem #23
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
+
+- [Answer #21]()
+---
+## Problem #22
+Given a dictionary of words and a string made up of those words (no spaces), return the original sentence in a list. If there is more than one possible reconstruction, return any of them. If there is no possible reconstruction, then return null.
+
+        For example, given the set of words 'quick', 'brown', 'the', 'fox', and the string "thequickbrownfox", 
+        you should return ['the', 'quick', 'brown', 'fox'].
+
+
+        Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", 
+        return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
+
+- [Answer #22]()
+---
+## Problem #23
 You are given an M by N matrix consisting of booleans that represents a board. Each True boolean represents a wall. Each False boolean represents a tile you can walk on.
-Given this matrix, a start coordinate, and an end coordinate, return the minimum number of steps required to reach the end coordinate from the start. If there is no possible path, then return null. You can move up, left, down, and right. You cannot move through walls. You cannot wrap around the edges of the board.
+
+Given this matrix, a start coordinate, and an end coordinate, return the minimum number of steps required to reach the end coordinate from the start. If there is no possible path, then return null. You can move up, left, down, and right. You cannot move through walls. 
+
+You cannot wrap around the edges of the board.
+
 For example, given the following board:
-[[f, f, f, f],
-[t, t, f, t],
-[f, f, f, f],
-[f, f, f, f]]
+        [[f, f, f, f],
+         [t, t, f, t],
+         [f, f, f, f],
+         [f, f, f, f]]
 
 
 and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number of steps required to reach the end is 7, since we would need to go through (1, 2) because there is a wall everywhere else on the second row.
-Problem #24
+
+- [Answer #23]()
+---
+## Problem #24
 Good morning! Here's your coding interview problem for today.
 This problem was asked by Google.
 Implement locking in a binary tree. A binary tree node can be locked or unlocked only if all of its descendants or ancestors are not locked.
@@ -776,15 +796,11 @@ abcdef
 Your function should return 0, since the rows are already ordered (there's only one row).
 
 As another example, given the following table:
-
-zyx
-wvu
-tsr
+    zyx
+    wvu
+    tsr
 Your function should return 3, since we would need to remove all the columns to order it.
 
 Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
 
 If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
-
-
-
