@@ -124,27 +124,36 @@ What if, instead of being able to climb 1 or 2 steps at a time, you could climb 
 - [Answer #12]()
 ---
 ## Problem #13
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Amazon.
 Given an integer k and a string s, find the length of the longest substring that contains at most k distinct characters.
+
 For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
-Problem #14
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+
+- [Answer #13]()
+---
+### Problem #14
 The area of a circle is defined as πr^2. Estimate π to 3 decimal places using a Monte Carlo method.
+
 Hint: The basic equation of a circle is x2 + y2 = r2.
-Problem #15
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Facebook.
+
+- [Answer #14]()
+---
+
+### Problem #15
 Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
-Problem #16
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Twitter.
+
+- [Answer #15]()
+---
+### Problem #16
 You run an e-commerce website and want to record the last N order ids in a log. Implement a data structure to accomplish this, with the following API:
-record(order_id): adds the order_id to the log
-get_last(i): gets the ith last element from the log. i is guaranteed to be smaller than or equal to N.
+
+    record(order_id): adds the order_id to the log
+    get_last(i): gets the ith last element from the log. i is guaranteed to be smaller than or equal to N.
+
 You should be as efficient with time and space as possible.
-Problem #17
+
+- [Answer #16]()
+---
+### Problem #17
 Good morning! Here's your coding interview problem for today.
 This problem was asked by Google.
 Suppose we represent our file system by a string in the following manner:
@@ -173,37 +182,46 @@ Note:
 The name of a file contains at least a period and an extension.
 The name of a directory or sub-directory will not contain a period.
 
-Problem #18
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+- [Answer #17]()
+---
+## Problem #18
 Given an array of integers and a number k, where 1 <= k <= length of the array, compute the maximum values of each subarray of length k.
+
 For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7, 8, 8], since:
 10 = max(10, 5, 2)
 7 = max(5, 2, 7)
 8 = max(2, 7, 8)
 8 = max(7, 8, 7)
+
 Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
 
-Problem #19
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Facebook.
+- [Answer #18]()
+---
+### Problem #19
+
 A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
+
 Given an N by K matrix where the nth row and kth column represents the cost to build the nthhouse with kth color, return the minimum cost which achieves this goal.
-Problem #20
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+
+- [Answer #19]()
+---
+### Problem #20
 Given two singly linked lists that intersect at some point, find the intersecting node. The lists are non-cyclical.
+
 For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the node with value 8.
+
 In this example, assume nodes with the same value are the exact same node objects.
+
 Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
-Problem #21
+
+- [Answer #20]()
+---
+### Problem #21
 Good morning! Here's your coding interview problem for today.
 This problem was asked by Snapchat.
 Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 Problem #22
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Microsoft.
 Given a dictionary of words and a string made up of those words (no spaces), return the original sentence in a list. If there is more than one possible reconstruction, return any of them. If there is no possible reconstruction, then return null.
 For example, given the set of words 'quick', 'brown', 'the', 'fox', and the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'].
 Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
