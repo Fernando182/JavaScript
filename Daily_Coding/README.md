@@ -259,74 +259,105 @@ and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number
 - [Answer #23]()
 ---
 ## Problem #24
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
 Implement locking in a binary tree. A binary tree node can be locked or unlocked only if all of its descendants or ancestors are not locked.
+
 Design a binary tree node class with the following methods:
+
 is_locked, which returns whether the node is locked
+
 lock, which attempts to lock the node. If it cannot be locked, then it should return false. Otherwise, it should lock it and return true.
+
 unlock, which unlocks the node. If it cannot be unlocked, then it should return false. Otherwise, it should unlock it and return true.
+
 You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
-Problem #25
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Facebook.
+
+- [Answer #24]()
+---
+## Problem #25
 Implement regular expression matching with the following special characters:
 . (period) which matches any single character
 * (asterisk) which matches zero or more of the preceding element
+
 That is, implement a function that takes in a string and a valid regular expression and returns whether or not the string matches the regular expression.
+
 For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
+
 Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
 
-Problem #26
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+- [Answer #25]()
+---
+## Problem #26
 Given a singly linked list and an integer k, remove the kth last element from the list. k is guaranteed to be smaller than the length of the list.
+
 The list is very long, so making more than one pass is prohibitively expensive.
+
 Do this in constant space and in one pass.
-Problem #27
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Facebook.
+
+- [Answer #26]()
+---
+## Problem #27
 Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
+
 For example, given the string "([])[]({})", you should return true.
+
 Given the string "([)]" or "((()", you should return false.
-Problem #28
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Palantir.
+
+- [Answer #27]()
+---
+## Problem #28
 Write an algorithm to justify text. Given a sequence of words and an integer line length k, return a list of strings which represents each line, fully justified.
+
 More specifically, you should have as many words as possible in each line. There should be at least one space between each word. Pad extra spaces when necessary so that each line has exactly length k. Spaces should be distributed as equally as possible, with the extra spaces, if any, distributed starting from the left.
+
 If you can only fit one word on a line, then you should pad the right-hand side with spaces.
+
 Each word is guaranteed not to be longer than k.
+
 For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"] and k = 16, you should return the following:
-["the  quick brown", # 1 extra space on the left
-"fox  jumps  over", # 2 extra spaces distributed evenly
-"the   lazy   dog"] # 4 extra spaces distributed evenly
-Problem #29
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Amazon.
+
+    ["the  quick brown", # 1 extra space on the left
+    "fox  jumps  over", # 2 extra spaces distributed evenly
+    "the   lazy   dog"] # 4 extra spaces distributed evenly
+
+- [Answer #28]()
+---
+## Problem #29
 Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
+
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
-Problem #30
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Facebook.
+
+## Problem #30
 You are given an array of non-negative integers that represents a two-dimensional elevation map where each element is unit-width wall and the integer is the height. Suppose it will rain and all spots between two walls get filled up.
+
 Compute how many units of water remain trapped on the map in O(N) time and O(1) space.
+
 For example, given the input [2, 1, 2], we can hold 1 unit of water in the middle.
+
 Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
-Problem #31
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
-The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
+
+- [Answer #30]()
+---
+## Problem #31
+The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. 
+
+For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
+
 Given two strings, compute the edit distance between them.
-Problem #32
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Jane Street.
+
+- [Answer #31]()
+---
+## Problem #32
 Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
+
 There are no transaction costs and you can trade fractional quantities.
-Problem #33
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Microsoft.
+
+- [Answer #31]()
+---
+## Problem #33
 Compute the running median of a sequence of numbers. That is, given a stream of numbers, print out the median of the list so far on each new element.
+
 Recall that the median of an even-numbered list is the average of the two middle numbers.
+
 For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should print out:
 2
 1.5
@@ -335,7 +366,10 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 2
 2
 2
-Problem #34
+
+- [Answer #33]()
+---
+## Problem #34
 Good morning! Here's your coding interview problem for today.
 This problem was asked by Quora.
 Given a string, find the palindrome that can be made by inserting the fewest number of characters as possible anywhere in the word. If there is more than one palindrome of minimum length that can be made, return the lexicographically earliest one (the first one alphabetically).
