@@ -370,290 +370,289 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 - [Answer #33]()
 ---
 ## Problem #34
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Quora.
 Given a string, find the palindrome that can be made by inserting the fewest number of characters as possible anywhere in the word. If there is more than one palindrome of minimum length that can be made, return the lexicographically earliest one (the first one alphabetically).
+
 For example, given the string "race", you should return "ecarace", since we can add three letters to it (which is the smallest amount to make a palindrome). There are seven other palindromes that can be made from "race" by adding three letters, but "ecarace" comes first alphabetically.
+
 As another example, given the string "google", you should return "elgoogle".
-Problem #35
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+
+- [Answer #34]()
+---
+## Problem #35
 Given an array of strictly the characters 'R', 'G', and 'B', segregate the values of the array so that all the Rs come first, the Gs come second, and the Bs come last. You can only swap elements of the array.
+
 Do this in linear time and in-place.
-For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
-Problem #36
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Dropbox.
+
+    For example, 
+            given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], 
+            it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
+
+- [Answer #35]()
+---
+## Problem #36
 Given the root to a binary search tree, find the second largest node in the tree.
-Problem #37
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+
+- [Answer #36]()
+---
+## Problem #37
 The power set of a set is the set of all its subsets. Write a function that, given a set, generates its power set.
-For example, given the set {1, 2, 3}, it should return {{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}.
+
+    For example, 
+        given the set {1, 2, 3}, 
+        it should return {{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}.
+
 You may also use a list or array to represent a set.
-Problem #38
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Microsoft.
+
+- [Answer #37]()
+---
+## Problem #38
 You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
-Problem #39
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Dropbox.
+
+- [Answer #38]()
+---
+## Problem #39
 Conway's Game of Life takes place on an infinite two-dimensional board of square cells. Each cell is either dead or alive, and at each tick, the following rules apply:
+
 Any live cell with less than two live neighbours dies.
 Any live cell with two or three live neighbours remains living.
 Any live cell with more than three live neighbours dies.
 Any dead cell with exactly three live neighbours becomes a live cell.
+
 A cell neighbours another cell if it is horizontally, vertically, or diagonally adjacent.
+
 Implement Conway's Game of Life. It should be able to be initialized with a starting list of live cell coordinates and the number of steps it should run for. Once initialized, it should print out the board state at each step. Since it's an infinite board, print out only the relevant coordinates, i.e. from the top-leftmost live cell to bottom-rightmost live cell.
+
 You can represent a live cell with an asterisk (*) and a dead cell with a dot (.).
-Problem #40
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+
+- [Answer #39]()
+---
+## Problem #40
 Given an array of integers where every integer occurs three times except for one integer, which only occurs once, find and return the non-duplicated integer.
-For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], return 19.
+
+    For example, 
+        given [6, 1, 3, 3, 3, 6, 6], return 1. 
+        Given [13, 19, 13, 13], return 19.
+
 Do this in O(N) time and O(1) space.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
-Problem #41
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Facebook.
+
+## Problem #41
 Given an unordered list of flights taken by someone, each represented as (origin, destination) pairs, and a starting airport, compute the person's itinerary. If no such itinerary exists, return null. If there are multiple possible itineraries, return the lexicographically smallest one. All flights must be used in the itinerary.
-For example, given the list of flights [('SFO', 'HKO'), ('YYZ', 'SFO'), ('YUL', 'YYZ'), ('HKO', 'ORD')] and starting airport 'YUL', you should return the list ['YUL', 'YYZ', 'SFO', 'HKO', 'ORD'].
-Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 'COM', you should return null.
-Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
-Problem #42
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+
+    For example, 
+    given the list of flights [('SFO', 'HKO'), ('YYZ', 'SFO'), ('YUL', 'YYZ'), ('HKO', 'ORD')] and starting airport 'YUL', you should return the list ['YUL', 'YYZ', 'SFO', 'HKO', 'ORD'].
+    Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 'COM', you should return null.
+    Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
+
+- [Answer #41]()
+---
+## Problem #42
 Given a list of integers S and a target number k, write a function that returns a subset of S that adds up to k. If such a subset cannot be made, then return null.
+
 Integers can appear more than once in the list. You may assume all numbers in the list are positive.
-For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
+
+    For example, 
+        given S = [12, 1, 61, 5, 9, 2] and k = 24, 
+        return [12, 9, 2, 1] since it sums up to 24.
+
+- [Answer #42]()
+---
 Problem #43
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Amazon.
 Implement a stack that has the following methods:
+
 push(val), which pushes an element onto the stack
+
 pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
+
 max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
+
 Each method should run in constant time.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
-Problem #44
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+- [Answer #25]()
+---
+## Problem #44
 We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements A[i] and A[j] form an inversion if A[i] > A[j] but i < j. That is, a smaller element appears after a larger element.
+
 Given an array, count the number of inversions it has. Do this faster than O(N^2) time.
+
 You may assume each element in the array is distinct.
-For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
-Problem #45
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Two Sigma.
+
+    For example, a sorted list has zero inversions. 
+    The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). 
+    The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
+
+- [Answer #44]()
+---
+## Problem #45
 Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
-Problem #46
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Amazon.
+
+- [Answer #45]()
+---
+## Problem #46
+
 Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
+
 For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
-Problem #47
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Facebook.
+
+- [Answer #46]()
+---
+## Problem #47
 Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock once. You must buy before you can sell it.
+
 For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
-Problem #48
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+
+- [Answer #47]()
+---
+## Problem #48
 Given pre-order and in-order traversals of a binary tree, write a function to reconstruct the tree.
-For example, given the following preorder traversal:
-[a, b, d, e, c, f, g]
-And the following inorder traversal:
-[d, b, e, a, f, c, g]
-You should return the following tree:
-   a
-   / \
-  b   c
- / \ / \
-d  e f  g
 
+    For example, given the following preorder traversal:
+        [a, b, d, e, c, f, g]
 
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
- 
-Problem #49
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Amazon.
+    And the following inorder traversal:
+    [d, b, e, a, f, c, g]
+
+    You should return the following tree:
+        a
+       / \
+      b   c
+     / \ / \
+    d  e f  g
+
+- [Answer #48]()
+---
+## Problem #49
 Given an array of numbers, find the maximum sum of any contiguous subarray of the array.
+
 For example, given the array [34, -50, 42, 14, -5, 86], the maximum sum would be 137, since we would take elements 42, 14, -5, and 86.
 Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not take any elements.
-Do this in O(N) time.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
- 
-Problem #50
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Microsoft.
-Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
-Given the root to such a tree, write a function to evaluate it.
-For example, given the following tree:
-   *
-   / \
-  +    +
- / \  / \
-3  2  4  5
 
+Do this in O(N) time.
+
+- [Answer #49]()
+---
+## Problem #50
+Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
+
+Given the root to such a tree, write a function to evaluate it.
+
+    For example, given the following tree:
+         *
+        / \
+       +    +
+      / \  / \
+     3  2  4  5
 
 You should return 45, as it is (3 + 2) * (4 + 5).
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
-Problem #51
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Facebook.
+
+- [Answer #50]()
+---
+## Problem #51
 Given a function that generates perfectly random numbers between 1 and k (inclusive), where k is an input, write a function that shuffles a deck of cards represented as an array using only swaps.
+
 It should run in O(N) time.
+
 Hint: Make sure each one of the 52! permutations of the deck is equally likely.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
- 
-Problem #52
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+
+- [Answer #51]()
+---
+## Problem #52
 Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size n, and contain the following methods:
+
 set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least recently used item.
+
 get(key): gets the value at key. If no such key exists, return null.
 Each operation should run in O(1) time.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
- 
-Problem #53
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Apple.
+
+- [Answer #52]()
+---
+## Problem #53
 Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: enqueue, which inserts an element into the queue, and dequeue, which removes it.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
- 
-Problem #54
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Dropbox.
+
+- [Answer #50]()
+---
+## Problem #54
 Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
+
 Implement an efficient sudoku solver.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
  
-Problem #55
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Microsoft.
+## Problem #55
 Implement a URL shortener with the following methods:
+
 shorten(url), which shortens the url into a six-character alphanumeric string, such as zLg6wl.
+
 restore(short), which expands the shortened string into the original url. If no such shortened string exists, return null.
+
 Hint: What if we enter the same URL twice?
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
- 
-Problem #56
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+
+- [Answer #55]()
+---
+## Problem #56
 Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
- 
-Problem #57
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Amazon.
+
+- [Answer #56]()
+--- 
+## Problem #57
 Given a string s and an integer k, break up the string into multiple texts such that each text has a length of k or less. You must break it up so that words don't break across lines. If there's no way to break the text up, then return null.
+
 You can assume that there are no spaces at the ends of the string and that there is exactly one space between each word.
-For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
- 
-Problem #58
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Amazon.
+
+For example, 
+given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
+
+## Problem #58
 An sorted array of integers was rotated an unknown number of times.
+
 Given such an array, find the index of the element in the array in faster than linear time. If the element doesn't exist in the array, return null.
-For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
+
+    For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
+
 You can assume all the integers in the array are unique.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
  
-Problem #59
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+## Problem #59
 Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
- 
-Problem #60
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Facebook.
+
+## Problem #60
 Given a multiset of integers, return whether it can be partitioned into two subsets whose sums are the same.
 For example, given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return true, since we can split it up into {15, 5, 10, 15, 10} and {20, 35}, which both add up to 55.
 Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't split it up into two subsets that add up to the same sum.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
  
-Problem #61
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+## Problem #61
+
 Implement integer exponentiation. That is, implement the pow(x, y) function, where x and yare integers and returns x^y.
 Do this faster than the naive method of repeated multiplication.
 For example, pow(2, 10) should return 1024.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
  
-Problem #62
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Facebook.
+## Problem #62
 There is an N by M matrix of zeroes. Given N and M, write a function to count the number of ways of starting at the top-left corner and getting to the bottom-right corner. You can only move right or down.
+
 For example, given a 2 by 2 matrix, you should return 2, since there are two ways to get to the bottom-right:
 Right, then down
 Down, then right
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
  
-Problem #63
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Microsoft.
+## Problem #63
 Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
-For example, given the following matrix:
-[['F', 'A', 'C', 'I'],
- ['O', 'B', 'Q', 'P'],
- ['A', 'N', 'O', 'B'],
- ['M', 'A', 'S', 'S']]
 
+    For example, given the following matrix:
+        [['F', 'A', 'C', 'I'],
+         ['O', 'B', 'Q', 'P'],
+         ['A', 'N', 'O', 'B'],
+         ['M', 'A', 'S', 'S']]
 
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
  
-Problem #64
-ood morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+## Problem #64
 A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
-Given N, write a function to return the number of knight's tours on an N by N chessboard.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
- 
-Problem #65
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Amazon.
-Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
-For example, given the following matrix:
-[[1,  2,  3,  4,  5],
- [6,  7,  8,  9,  10],
- [11, 12, 13, 14, 15],
- [16, 17, 18, 19, 20]]
 
+Given N, write a function to return the number of knight's tours on an N by N chessboard.
+ 
+## Problem #65
+Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
+    
+    For example, given the following matrix:    
+        [[1,  2,  3,  4,  5],
+         [6,  7,  8,  9,  10],
+         [11, 12, 13, 14, 15],
+         [16, 17, 18, 19, 20]]
 
 You should print out the following:
 1
@@ -677,84 +676,68 @@ You should print out the following:
 13
 12
 
-
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
- 
-Problem #66
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Square.
+## Problem #66
 Assume you have access to a function toss_biased() which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
+
 Write a function to simulate an unbiased coin toss.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
  
-Problem #67
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+## Problem #67
 Implement an LFU (Least Frequently Used) cache. It should be able to be initialized with a cache size n, and contain the following methods:
+
 set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least frequently used item. If there is a tie, then the least recently used key should be removed.
+
 get(key): gets the value at key. If no such key exists, return null.
 Each operation should run in O(1) time.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
  
-Problem #68
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+## Problem #68
 On our special chessboard, two bishops attack each other if they share the same diagonal. This includes bishops that have another bishop located between them, i.e. bishops can attack through pieces.
-You are given N bishops, represented as (row, column) tuples on a M by M chessboard. Write a function to count the number of pairs of bishops that attack each other. The ordering of the pair doesn't matter: (1, 2) is considered the same as (2, 1).
-For example, given M = 5 and the list of bishops:
-(0, 0)
-(1, 2)
-(2, 2)
-(4, 0)
-The board would look like this:
-[b 0 0 0 0]
-[0 0 b 0 0]
-[0 0 b 0 0]
-[0 0 0 0 0]
-[b 0 0 0 0]
 
+You are given N bishops, represented as (row, column) tuples on a M by M chessboard. Write a function to count the number of pairs of bishops that attack each other. The ordering of the pair doesn't matter: (1, 2) is considered the same as (2, 1).
+
+    For example, given M = 5 and the list of bishops:
+    (0, 0)
+    (1, 2)
+    (2, 2)
+    (4, 0)
+
+    The board would look like this:
+    [b 0 0 0 0]
+    [0 0 b 0 0]
+    [0 0 b 0 0]
+    [0 0 0 0 0]
+    [b 0 0 0 0]
 
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
- 
-Problem #69
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Facebook.
+
+## Problem #69
 Given a list of integers, return the largest product that can be made by multiplying any three integers.
+
 For example, if the list is [-10, -10, 5, 2], we should return 500, since that's -10 * -10 * 5.
+
 You can assume the list has at least three integers.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
- 
-Problem #70 
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Microsoft.
+
+## Problem #70 
 A number is considered perfect if its digits sum up to exactly 10.
+
 Given a positive integer n, return the n-th perfect number.
+
 For example, given 1, you should return 19. Given 2, you should return 28.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
  
-Problem #71
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Two Sigma.
+## Problem #71
 Using a function rand7() that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function rand5() that returns an integer from 1 to 5 (inclusive).
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
  
-Problem #72
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
-In a directed graph, each node is assigned an uppercase letter. We define a path's value as the number of most frequently-occurring letter along that path. For example, if a path in the graph goes through "ABACA", the value of the path is 3, since there are 3 occurrences of 'A' on the path.
+## Problem #72
+In a directed graph, each node is assigned an uppercase letter. We define a path's value as the number of most frequently-occurring letter along that path. 
+
+For example, if a path in the graph goes through "ABACA", the value of the path is 3, since there are 3 occurrences of 'A' on the path.
+
 Given a graph with n nodes and m directed edges, return the largest value path of the graph. If the largest value is infinite, then return null.
-The graph is represented with a string and an edge list. The i-th character represents the uppercase letter of the i-th node. Each tuple in the edge list (i, j) means there is a directed edge from the i-th node to the j-th node. Self-edges are possible, as well as multi-edges.
+
+The graph is represented with a string and an edge list. The i-th character represents the uppercase letter of the i-th node. Each tuple 
+in the edge list (i, j) means there is a directed edge from the i-th node to the j-th node. Self-edges are possible, as well as multi-edges.
+
 For example, the following input graph:
 ABACA
-
 
 [(0, 1),
  (0, 2),
@@ -766,75 +749,58 @@ Would have maximum value 3 using the path of vertices [0, 2, 3, 4], (A, A, C, A)
 The following input graph:
 A
 
-
 [(0, 0)]
 
-
 Should return null, since we have an infinite loop.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
- 
-Problem #73
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Google.
+
+## Problem #73
 Given the head of a singly linked list, reverse it in-place.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
- 
-Problem #74
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Apple.
+
+## Problem #74
 Suppose you have a multiplication table that is N by N. That is, a 2D array where the value at the i-th row and j-th column is (i + 1) * (j + 1) (if 0-indexed) or i * j (if 1-indexed).
+
 Given integers N and X, write a function that returns the number of times X appears as a value in an N by N multiplication table.
+
 For example, given N = 6 and X = 12, you should return 4, since the multiplication table looks like this:
-| 1 | 2 | 3 | 4 | 5 | 6 |
-| 2 | 4 | 6 | 8 | 10 | 12 |
-| 3 | 6 | 9 | 12 | 15 | 18 |
-| 4 | 8 | 12 | 16 | 20 | 24 |
-| 5 | 10 | 15 | 20 | 25 | 30 |
-| 6 | 12 | 18 | 24 | 30 | 36 |
+        
+        | 1 | 2 | 3 | 4 | 5 | 6 |
+        | 2 | 4 | 6 | 8 | 10 | 12 |
+        | 3 | 6 | 9 | 12 | 15 | 18 |
+        | 4 | 8 | 12 | 16 | 20 | 24 |
+        | 5 | 10 | 15 | 20 | 25 | 30 |
+        | 6 | 12 | 18 | 24 | 30 | 36 |
+
 And there are 4 12's in the table.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
  
-Problem #75
-Good morning! Here's your coding interview problem for today.
-This problem was asked by Microsoft.
+## Problem #75
 Given an array of numbers, find the length of the longest increasing subsequence in the array. The subsequence does not necessarily have to be contiguous.
-For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
+
+    For example, 
+        given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], 
+        the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
  
-Problem #76
-Good morning! Here's your coding interview problem for today.
-
-This problem was asked by Google.
-
+## Problem #76
 You are given an N by M 2D matrix of lowercase letters. Determine the minimum number of columns that can be removed to ensure that each row is ordered from top to bottom lexicographically. That is, the letter at each column is lexicographically later as you go down each row. It does not matter whether each row itself is ordered lexicographically.
 
 For example, given the following table:
-
 cba
 daf
 ghi
-This is not ordered because of the a in the center. We can remove the second column to make it ordered:
 
+This is not ordered because of the a in the center. We can remove the second column to make it ordered:
 ca
 df
 gi
+
 So your function should return 1, since we only needed to remove 1 column.
-
 As another example, given the following table:
-
 abcdef
+
 Your function should return 0, since the rows are already ordered (there's only one row).
 
 As another example, given the following table:
     zyx
     wvu
     tsr
+
 Your function should return 3, since we would need to remove all the columns to order it.
-
-Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
-
-If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
