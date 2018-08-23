@@ -598,6 +598,8 @@ You can assume that there are no spaces at the ends of the string and that there
 For example, 
 given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
 
+- [Answer #57]()
+---
 ## Problem #58
 An sorted array of integers was rotated an unknown number of times.
 
@@ -606,30 +608,42 @@ Given such an array, find the index of the element in the array in faster than l
     For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
 
 You can assume all the integers in the array are unique.
- 
+
+- [Answer #58]()
+---
 ## Problem #59
 Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
 
+- [Answer #59]()
+---
 ## Problem #60
 Given a multiset of integers, return whether it can be partitioned into two subsets whose sums are the same.
 For example, given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return true, since we can split it up into {15, 5, 10, 15, 10} and {20, 35}, which both add up to 55.
 Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't split it up into two subsets that add up to the same sum.
  
+- [Answer #60]()
+---
 ## Problem #61
 
 Implement integer exponentiation. That is, implement the pow(x, y) function, where x and yare integers and returns x^y.
 Do this faster than the naive method of repeated multiplication.
 For example, pow(2, 10) should return 1024.
- 
+
+- [Answer #61]()
+---
 ## Problem #62
+
 There is an N by M matrix of zeroes. Given N and M, write a function to count the number of ways of starting at the top-left corner and getting to the bottom-right corner. You can only move right or down.
 
 For example, given a 2 by 2 matrix, you should return 2, since there are two ways to get to the bottom-right:
 Right, then down
 Down, then right
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
- 
+
+- [Answer #62]()
+---
 ## Problem #63
+
 Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
 
     For example, given the following matrix:
@@ -640,11 +654,15 @@ Given a 2D matrix of characters and a target word, write a function that returns
 
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
  
+- [Answer #63]()
+---
 ## Problem #64
 A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
 
 Given N, write a function to return the number of knight's tours on an N by N chessboard.
  
+- [Answer #64]()
+---
 ## Problem #65
 Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
     
@@ -676,11 +694,15 @@ You should print out the following:
 13
 12
 
+- [Answer #65]()
+---
 ## Problem #66
 Assume you have access to a function toss_biased() which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
 
 Write a function to simulate an unbiased coin toss.
  
+- [Answer #66]()
+--- 
 ## Problem #67
 Implement an LFU (Least Frequently Used) cache. It should be able to be initialized with a cache size n, and contain the following methods:
 
@@ -688,7 +710,9 @@ set(key, value): sets key to value. If there are already n items in the cache an
 
 get(key): gets the value at key. If no such key exists, return null.
 Each operation should run in O(1) time.
- 
+
+- [Answer #67]()
+---
 ## Problem #68
 On our special chessboard, two bishops attack each other if they share the same diagonal. This includes bishops that have another bishop located between them, i.e. bishops can attack through pieces.
 
@@ -709,6 +733,8 @@ You are given N bishops, represented as (row, column) tuples on a M by M chessbo
 
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
 
+- [Answer #68]()
+---
 ## Problem #69
 Given a list of integers, return the largest product that can be made by multiplying any three integers.
 
@@ -716,16 +742,22 @@ For example, if the list is [-10, -10, 5, 2], we should return 500, since that's
 
 You can assume the list has at least three integers.
 
+- [Answer #69]()
+---
 ## Problem #70 
 A number is considered perfect if its digits sum up to exactly 10.
 
 Given a positive integer n, return the n-th perfect number.
 
 For example, given 1, you should return 19. Given 2, you should return 28.
- 
+
+- [Answer #70]()
+---
 ## Problem #71
 Using a function rand7() that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function rand5() that returns an integer from 1 to 5 (inclusive).
  
+- [Answer #71]()
+---
 ## Problem #72
 In a directed graph, each node is assigned an uppercase letter. We define a path's value as the number of most frequently-occurring letter along that path. 
 
@@ -744,7 +776,6 @@ ABACA
  (2, 3),
  (3, 4)]
 
-
 Would have maximum value 3 using the path of vertices [0, 2, 3, 4], (A, A, C, A).
 The following input graph:
 A
@@ -753,9 +784,13 @@ A
 
 Should return null, since we have an infinite loop.
 
+- [Answer #72]()
+---
 ## Problem #73
 Given the head of a singly linked list, reverse it in-place.
 
+- [Answer #73]()
+---
 ## Problem #74
 Suppose you have a multiplication table that is N by N. That is, a 2D array where the value at the i-th row and j-th column is (i + 1) * (j + 1) (if 0-indexed) or i * j (if 1-indexed).
 
@@ -771,14 +806,18 @@ For example, given N = 6 and X = 12, you should return 4, since the multiplicati
         | 6 | 12 | 18 | 24 | 30 | 36 |
 
 And there are 4 12's in the table.
- 
+
+- [Answer #74]()
+---
 ## Problem #75
 Given an array of numbers, find the length of the longest increasing subsequence in the array. The subsequence does not necessarily have to be contiguous.
 
     For example, 
         given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], 
         the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
- 
+
+- [Answer #75]()
+---
 ## Problem #76
 You are given an N by M 2D matrix of lowercase letters. Determine the minimum number of columns that can be removed to ensure that each row is ordered from top to bottom lexicographically. That is, the letter at each column is lexicographically later as you go down each row. It does not matter whether each row itself is ordered lexicographically.
 
@@ -804,3 +843,6 @@ As another example, given the following table:
     tsr
 
 Your function should return 3, since we would need to remove all the columns to order it.
+
+- [Answer #76]()
+---
