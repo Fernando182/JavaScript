@@ -888,10 +888,31 @@ For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f
 
 - [Answer #81]()
 ---
-## Problem #80
+## Problem #82
 Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
 
 For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
 
-- [Answer #80]()
+- [Answer #82]()
+---
+## Problem #83
+Invert a binary tree.
+
+For example, given the following tree:
+
+            a
+           / \
+          b   c
+         / \  /
+        d   e f
+
+should become:
+
+        a
+       / \
+      c  b
+      \  / \
+      f e  d
+
+- [Answer #83]()
 ---
