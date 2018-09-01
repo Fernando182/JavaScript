@@ -932,16 +932,14 @@ For example, this matrix has 4 islands.
 - [Answer #84]()
 ---
 ## Problem #85
-Good morning! Here's your coding interview problem for today.
-
-This problem was asked by Facebook.
-
 Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
 
 - [Answer #85]()
 ---
-## Problem #85
+## Problem #86
 Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
 
 For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
-- [Answer #85]()
+
+- [Answer #86]()
+---
