@@ -982,3 +982,25 @@ A binary search tree is a tree with two children, left and right, and satisfies 
 ## Problem #90
 Given an integer n and a list of integers l, write a function that randomly generates a number from 0 to n-1 that isn't in l (uniform).
 - [Answer #90]()
+---
+## Problem #91
+What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
+
+    functions = []
+        for i in range(10):
+         functions.append(lambda : i)
+
+    for f in functions:
+        print(f())
+
+- [Answer #91]()
+---
+## Problem #92
+We're given a hashmap with a key courseId and value a list of courseIds, which represents that the prerequsite of courseId is courseIds. Return a sorted ordering of courses such that we can finish all courses.
+
+Return null if there is no such ordering.
+
+    For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
+
+- [Answer #92]()
+---
