@@ -9,8 +9,30 @@
 <Button>Alertar</Button>
 </body>
 
+<script>
+	function alertar(nombre, apellido){
+		alert(`Hola ${nombre} ${apellido}`)
+	}
 
+	function debounce(funcion, tiempo){
+		let timeoutId;
+		return function () {
+			if (timeoutId){
+				//console.log(timeoutId);
+				clearTimeout(timeoutId);
+			}
+			const context = this;
+			const args = arguments;
+			timeoutId = setTimeout(() => {
+				funcion.apply(context, args)
+			}, tiempo)
+		}
+	}
 
-
-
+	const alertarDebounce = debounce(alertar, 1000)
+	document.querySelector('Button')
+		.addEventListener('click', () => {
+			alertarDebounce('Fernando','Hernandez')
+		})
+</script>
 </html>
