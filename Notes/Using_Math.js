@@ -15,3 +15,10 @@ console.log(Math.ceil(Math.random() * 10))
 //Use .round to round to the nearest whole number:
 console.log(Math.round(Math.random() * 10))
 2
+
+//Number between min and max:
+function aleatorio(min, maxi)
+{
+  var result = Math.floor(Math.random() * (maxi - min + 1)) + min;
+  return resultado;
+}
