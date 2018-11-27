@@ -1,4 +1,4 @@
-ejercicio2.const PI=3.14;
+const PI=3.14;
 
 function sumar(x1,x2)
 {
