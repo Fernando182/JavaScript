@@ -11,7 +11,9 @@
 
 ______
 #### Matter
-* SASS & LESS (PreProcesadores)(Don't Js)
+* Flexbox
+* Cssgrid
+* SASS & LESS (PreProcesadores) 
 * Learn React & Redux
 * Functional programming
 
@@ -22,7 +24,6 @@ ______
 * High Performing Code in JS
 * Progressive Web Apps
 * Site Performance Optimization
-* TypeScript
 
 * Array/object destructuring
 * Arrow functions
@@ -32,5 +33,7 @@ ______
 * Rest/Spread
 * Symbol.iterator
 * The prototype chain
+
+* TypeScript
 
 - [Get the job](https://github.com/FernandoFH/Programming_Interview_Study_Plan)
