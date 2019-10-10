@@ -16,6 +16,7 @@ ______
 * Cssgrid
 * SASS & LESS (PreProcesadores) 
 * Learn React & Redux
+* WebPack
 * Functional programming
 
 * JavaScript Design Patterns
