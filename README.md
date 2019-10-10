@@ -22,6 +22,7 @@ ______
 * High Performing Code in JS
 * Progressive Web Apps
 * Site Performance Optimization
+* TypeScript
 
 * Array/object destructuring
 * Arrow functions
