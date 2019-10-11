@@ -27,14 +27,14 @@ ______
 * Progressive Web Apps
 * Site Performance Optimization
 
-* Array/object destructuring
-* Arrow functions
-* Async/await
-* Closures
-* Function composition
-* Rest/Spread
-* Symbol.iterator
-* The prototype chain
+    * Array/object destructuring
+    * Arrow functions
+    * Async/await
+    * Closures
+    * Function composition
+    * Rest/Spread
+    * Symbol.iterator
+    * The prototype chain
 
 * TypeScript
 
