@@ -1,4 +1,5 @@
+## JavaScript
 
-### JavaScript: The Good Parts [Aqui](https://www.youtube.com/watch?v=hQVTIJBZook&list=WL&index=2&t=8s)
+### The fundamentals js [here](https://dev.to/syntax/the-fundamentals-js)
+### The Good Parts [here](https://www.youtube.com/watch?v=hQVTIJBZook&list=WL&index=2&t=8s)
 
-<p>JavaScript<p>
