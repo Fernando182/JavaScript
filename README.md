@@ -39,6 +39,7 @@ ______
 * Cssgrid
 * SASS & LESS (PreProcesadores) 
 * Learn React & Redux
+* GraphQL
 * Grunt & Gulp
 * WebPack & Babel
 * Functional programming
@@ -88,6 +89,6 @@ ______
 - DevOps 
 	{Kubernetes,Docker,Heroku,AWS,Azure,Terraform, CI/CD, PaaS, SaaS, Nginx}
 - BBDD
-	{MongoDB, Redis, ElasticSearch, NoSQL, Postgres, RDMS, GraphQL}
+	{MongoDB, Redis, ElasticSearch, NoSQL, Postgres, RDMS}
 - dApps
 	{Ethereum,Web3.js,Truffle,Oraculos,Smart Contracts, Proof of concept and scaling it (PoA, BFT, Raft, Kafka), Developing test software}
