@@ -76,14 +76,11 @@ ______
 
 ______ 
 #### Notes: 
-ReactJS
+- ReactJS
 	{Routes,Navigation, Security, Hooks,Testing Library, Next.js, Redux, Flux Architecture, MobX,SSR} 
-DevOps 
+- DevOps 
 	{Kubernetes,Docker,Heroku,AWS,Azure,Terraform, CI/CD, PaaS, SaaS, Nginx}
-BBDD
+- BBDD
 	{MongoDB, Redis, ElasticSearch, NoSQL, Postgres, RDMS, GraphQL}
-dApps
+- dApps
 	{Ethereum,Web3.js,Truffle,Oraculos,Smart Contracts, Proof of concept and scaling it (PoA, BFT, Raft, Kafka), Developing test software}
-
-
-
