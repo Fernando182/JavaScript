@@ -26,7 +26,7 @@ ______
 * inquirer
 * JWT
 * Soket.io 
-* WebSockets
+* WebSockets (XMPP/WebRTC)
 * OWASP
 
 * Hapi
@@ -45,8 +45,12 @@ ______
 * Declarative vs Imperative 
 * Event-driven
 * TDD
+* Google Material Design
+* Server Sent envent (SSE)
+* Server-Side Langages
+* Server-Side Rendering
 
-* JavaScript Design Patterns
+* JavaScript Design Patterns (YAGNI, KISS, SOLID) 
 * Principles of Single Page Applications
 * Architecting Front-End Applications
 * Testing for Front-End Devs
@@ -58,6 +62,7 @@ ______
 * Micro-service architecture
 * Agile Methodology
 * GPU parallel computing
+* HTTPS and RESTful APIs
 
     * Array/object destructuring
     * Arrow functions
@@ -71,8 +76,10 @@ ______
     * Fetch
 
 * TypeScript
+* PureScript
 
 - [Get the job](https://github.com/FernandoFH/Programming_Interview_Study_Plan)
+
 
 ______ 
 #### Notes: 
