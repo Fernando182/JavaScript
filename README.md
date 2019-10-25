@@ -10,13 +10,40 @@
 - [ ] [Working with Data and APIs in JavaScript](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X) (15 Days)
 - [ ] [Neural networks in JavaScript](https://scrimba.com/g/gneuralnetworks) (20 Days)
 ______
+#### Module Node.js 
+* Express
+* Passport
+* OAuth2
+* Nodemailer
+* PM2
+* Puppeteer
+* Cheerio
+* validator.js
+* Moment 
+* pdfkit
+* Restify
+* inquirer
+* JWT
+* Soket.io 
+* WebSockets
+* OWASP
+
+* Hapi
+* Jest
+* Mocha
+
 #### Matter
+* Yarn / NPM 
 * Flexbox
 * Cssgrid
 * SASS & LESS (PreProcesadores) 
 * Learn React & Redux
-* WebPack
+* Grunt & Gulp
+* WebPack & Babel
 * Functional programming
+* Declarative vs Imperative 
+* Event-driven
+* TDD
 
 * JavaScript Design Patterns
 * Principles of Single Page Applications
@@ -25,15 +52,22 @@ ______
 * High Performing Code in JS
 * Progressive Web Apps
 * Site Performance Optimization
+* Unit testing
+* Services Worked
+* Micro-service architecture
+* Agile Methodology
+* GPU parallel computing
 
     * Array/object destructuring
     * Arrow functions
+    * Promises
     * Async/await
     * Closures
     * Function composition
     * Rest/Spread
     * Symbol.iterator
     * The prototype chain
+    * Fetch
 
 * TypeScript
 
