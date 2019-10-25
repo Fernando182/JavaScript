@@ -9,6 +9,7 @@
 - [ ] [Apis And Microservice](https://www.freecodecamp.org/) (30 Days)  
 - [ ] [Working with Data and APIs in JavaScript](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X) (15 Days)
 - [ ] [Neural networks in JavaScript](https://scrimba.com/g/gneuralnetworks) (20 Days)
+
 ______
 #### Module Node.js 
 * Express
@@ -72,3 +73,17 @@ ______
 * TypeScript
 
 - [Get the job](https://github.com/FernandoFH/Programming_Interview_Study_Plan)
+
+______ 
+#### Notes: 
+ReactJS
+	{Routes,Navigation, Security, Hooks,Testing Library, Next.js, Redux, Flux Architecture, MobX,SSR} 
+DevOps 
+	{Kubernetes,Docker,Heroku,AWS,Azure,Terraform, CI/CD, PaaS, SaaS, Nginx}
+BBDD
+	{MongoDB, Redis, ElasticSearch, NoSQL, Postgres, RDMS, GraphQL}
+dApps
+	{Ethereum,Web3.js,Truffle,Oraculos,Smart Contracts, Proof of concept and scaling it (PoA, BFT, Raft, Kafka), Developing test software}
+
+
+
