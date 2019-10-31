@@ -92,3 +92,8 @@ ______
 	{MongoDB, Redis, ElasticSearch, NoSQL, Postgres, RDMS}
 - dApps
 	{Ethereum,Web3.js,Truffle,Oraculos,Smart Contracts, Proof of concept and scaling it (PoA, BFT, Raft, Kafka), Developing test software}
+
+______
+![equation](http://latex.codecogs.com/svg.latex?%24%24lim_%7Bx+%5Cto%7B0%7D%7D%24%24)
+
+
