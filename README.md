@@ -1,5 +1,5 @@
 ### JavaScript RoadMap
-- [x] [10 Days of Javascript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript) (4 Days) 
+- [x] [10 Days of Javascript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript) (4 Days) ✔️
    - [Simon_Says]() (1 Days) 
 - [ ] [JavaScript 30](https://javascript30.com/) (30 Days)  
 - [ ] [NodeYa](http://www.tutorialesprogramacionya.com/javascriptya/nodejsya/) (3 Days)  
