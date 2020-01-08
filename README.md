@@ -18,6 +18,7 @@
 - [ ] [FrontEnd](https://frontendmasters.com/books/front-end-handbook/2019/) 
 - [ ] [React 30](https://www.fullstackreact.com/30-days-of-react/) 
 - [ ] [React example](https://reactjsexample.com/)
+- [ ] [Netlify](https://www.netlify.com) (Frontend Deploy)
 _____
 #### Module Node.js 
 * Express
@@ -83,12 +84,18 @@ _____
     * Symbol.iterator
     * The prototype chain
     * Fetch
-
+    
 * TypeScript
 * PureScript
+    
+* DevOps 
+	- [Heroku](https://www.heroku.com/) (Backend Deploy)
+	- DigitalOcean 
+	- GCP 
+	- AWS 
+	- Azure
 
 - [Get the job](https://github.com/FernandoFH/Programming_Interview_Study_Plan)
-
 
 ______ 
 #### Notes: 
