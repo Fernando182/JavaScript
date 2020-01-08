@@ -87,26 +87,50 @@ _____
     
 * TypeScript
 * PureScript
-    
-* DevOps 
-	- [Heroku](https://www.heroku.com/) (Backend Deploy)
-	- DigitalOcean 
-	- GCP 
-	- AWS 
-	- Azure
 
 - [Get the job](https://github.com/FernandoFH/Programming_Interview_Study_Plan)
 
 ______ 
 #### Notes: 
 - ReactJS
-	{Routes,Navigation, Security, Hooks,Testing Library, Next.js, Redux, Flux Architecture, MobX,SSR} 
+	- Routes
+	- Navigation 
+	- Security
+	- Hooks
+	- Testing Library
+	- Next.js
+	- Redux
+	- Flux Architecture
+	- MobX
+	- SSR 
 - DevOps 
-	{Kubernetes,Docker,Heroku,AWS,Azure,Terraform, CI/CD, PaaS, SaaS, Nginx}
+	- Docker
+	- Kubernetes
+	- [Heroku](https://www.heroku.com/) (Backend Deploy)
+	- DigitalOcean 	
+	- AWS
+	- GCP 
+	- Azure
+	- Terraform
+	- GitLab CI/CD
+	- PaaS
+	- SaaS
+	- Nginx
 - BBDD
-	{MongoDB, Redis, ElasticSearch, NoSQL, Postgres, RDMS}
+	- MongoDB
+	- Redis
+	- ElasticSearch
+	- Postgres
+	- RDMS
 - dApps
-	{Ethereum,Web3.js,Truffle,Oraculos,Smart Contracts, Proof of concept and scaling it (PoA, BFT, Raft, Kafka), Developing test software}
+	- Ethereum
+	- Web3.js
+	- Truffle
+	- Oraculos
+	- Smart Contracts
+	- Developing test software
+	- Proof of concept and scaling it (PoA, BFT, Raft, Kafka)
+
 
 ______
 ![equation](http://latex.codecogs.com/svg.latex?%24%24lim_%7Bx+%5Cto%7B0%7D%7D%24%24)
