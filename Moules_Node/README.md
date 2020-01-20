@@ -20,3 +20,4 @@
 * Hapi
 * Jest
 * Mocha
+* Adonisjs
