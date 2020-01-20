@@ -21,11 +21,11 @@
 - [ ] [Netlify](https://www.netlify.com) (Frontend Deploy)
 _____
 #### Module Node.js 
+* PM2 ✔
 * Express
 * Passport
 * OAuth2
 * Nodemailer
-* PM2
 * Puppeteer
 * Cheerio
 * validator.js
