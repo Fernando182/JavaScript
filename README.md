@@ -20,29 +20,6 @@
 - [ ] [React example](https://reactjsexample.com/)
 - [ ] [Netlify](https://www.netlify.com) (Frontend Deploy)
 _____
-#### Module Node.js 
-* PM2 ✔
-* Express
-* Passport
-* OAuth2
-* Nodemailer
-* Puppeteer
-* Cheerio
-* validator.js
-* Moment 
-* pdfkit
-* Restify
-* inquirer
-* JWT
-* Soket.io 
-* Nest
-* WebSockets (XMPP/WebRTC)
-* OWASP
-
-* Hapi
-* Jest
-* Mocha
-
 #### Matter
 * Yarn / NPM 
 * Flexbox
