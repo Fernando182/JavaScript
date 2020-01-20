@@ -35,6 +35,7 @@ _____
 * inquirer
 * JWT
 * Soket.io 
+* Nest
 * WebSockets (XMPP/WebRTC)
 * OWASP
 
