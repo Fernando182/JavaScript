@@ -9,6 +9,7 @@
 * Express
 * Passport
 * OAuth2
+* Adonisjs
 * Nodemailer
 * Puppeteer
 * pdfkit
@@ -19,8 +20,6 @@
 * Nest
 * WebSockets (XMPP/WebRTC)
 * OWASP
-
 * Hapi
 * Jest
 * Mocha
-* Adonisjs
