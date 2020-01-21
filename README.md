@@ -1,7 +1,7 @@
 ### JavaScript RoadMap
-- [x] [10 Days of Javascript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript) (4 Days)
-   - [Simon_Says]() (1 Days) 
-- [ ] [JavaScript 30](https://javascript30.com/) (30 Days)  
+- [x] [10 Days of Javascript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript)
+   - [Simon_Says] 
+- [ ] [JavaScript 30](https://javascript30.com/) 
 - [ ] [Javascript Algorithms](https://github.com/trekhleb/javascript-algorithms)
 - [ ] [Javascript Algorithms And Data Structures](https://www.freecodecamp.org/)  
 - [ ] [The Modern JavaScript Tutorial](https://javascript.info/)  
@@ -112,5 +112,4 @@ ______
 
 ______
 ![equation](http://latex.codecogs.com/svg.latex?%24%24lim_%7Bx+%5Cto%7B0%7D%7D%24%24)
-
-
+✔
