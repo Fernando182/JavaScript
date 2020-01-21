@@ -1,13 +1,16 @@
 #### Module Node.js 
-* PM2 ✔
+* [PM2](https://pm2.keymetrics.io/) ✔
+* [Lodash](https://lodash.com) 
+* validator.js
+* [Underscorejs](https://underscorejs.org)
+* [Moment](https://momentjs.com) 
+* [Rxjs](https://rxjs-dev.firebaseapp.com)
+* [Ramdajs](https://ramdajs.com/#)
 * Express
 * Passport
 * OAuth2
 * Nodemailer
 * Puppeteer
-* Cheerio
-* validator.js
-* Moment 
 * pdfkit
 * Restify
 * inquirer
