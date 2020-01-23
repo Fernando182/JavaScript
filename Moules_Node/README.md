@@ -23,3 +23,7 @@
 * Hapi
 * Jest
 * Mocha
+
+* standard 
+* nodemon 
+* dotenv
