@@ -23,6 +23,10 @@
 * Hapi
 * Jest
 * Mocha
+* node-schedule
+* Axios
+* Request – Simplified HTTP Client
+
 
 * standard 
 * nodemon 
