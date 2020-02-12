@@ -8,11 +8,10 @@ function bubbleSort() {
                         inputArray[j] = inputArray[j+1];
                         inputArray[j + 1] = tmp;
                   }
-
-            }
+             }
       }
       return inputArray;
 }
 Array.prototype.bubbleSort = bubbleSort;
 
-console.log([6,0,2,4,5].bubbleSort());
+console.log([8,3,1,2,9].bubbleSort());
