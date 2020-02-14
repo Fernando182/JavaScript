@@ -1,4 +1,9 @@
 ## JavaScript
 
 ### The fundamentals js [here](https://dev.to/syntax/the-fundamentals-js)
-### The Good Parts [here](https://www.youtube.com/watch?v=hQVTIJBZook&list=WL&index=2&t=8s)
+
+
+### The Better Parts. JS Fest 2018 (Douglas Crockford) [here](https://www.youtube.com/watch?v=XFTOG895C7c)
+
+
+### Netflix JavaScript Talks (Douglas Crockford) [here](https://www.youtube.com/watch?v=WLqc0EX8Bmg)
