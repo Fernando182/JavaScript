@@ -6,4 +6,4 @@
 ### The Better Parts. JS Fest 2018 (Douglas Crockford) [here](https://www.youtube.com/watch?v=XFTOG895C7c)
 
 
-### Netflix JavaScript Talks (Douglas Crockford) [here](https://www.youtube.com/watch?v=WLqc0EX8Bmg)
+### Netflix JavaScript Talks [here](https://www.youtube.com/watch?v=WLqc0EX8Bmg)
