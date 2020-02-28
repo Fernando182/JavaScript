@@ -28,3 +28,31 @@ ____
 <p align="center">
   <img src="https://github.com/FernandoFH/JavaScript/blob/master/Notes/IMG/TrsnPilar.JPG">
 </p>
+
+#### Example
+``
+let verdadero: boolean = true;
+
+let numero: number = 123;
+
+let nombre: string = 'Fernando Hernandez';
+
+let personas: {
+    nombre: string,
+    apellido: string,
+    edad: number
+} = {
+    nombre: 'Fernando',
+    apellido: 'Hernandez',
+    edad: 30
+};
+
+let list: string[] = ['manzanas','peras','mangos'];
+
+function sumar(a: number, b: number): number{
+    return a + b;
+}
+
+let promesa: Promise<string> = Promise.resolve('cumplida');
+
+``
