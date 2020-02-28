@@ -26,5 +26,5 @@ ____
 #### Traspilacion 
 ____
 <p align="center">
-  <img src="https://github.com/FernandoFH/JavaScript/blob/master/Notes/IMG/SuperSetJs.JPG">
+  <img src="https://github.com/FernandoFH/JavaScript/blob/master/Notes/IMG/TrsnPilar.JPG">
 </p>
