@@ -30,6 +30,7 @@ ____
 </p>
 
 #### Example
+____
 ~~~
 let verdadero: boolean = true;
 
@@ -55,3 +56,7 @@ function sumar(a: number, b: number): number{
 
 let promesa: Promise<string> = Promise.resolve('cumplida'); 
 ~~~
+
+#### Example Real 
+____
+
