@@ -29,7 +29,7 @@ ____
   <img src="https://github.com/FernandoFH/JavaScript/blob/master/Notes/IMG/TrsnPilar.JPG">
 </p>
 
-#### Example
+#### Ejemplo
 ____
 ~~~
 let verdadero: boolean = true;
@@ -57,6 +57,6 @@ function sumar(a: number, b: number): number{
 let promesa: Promise<string> = Promise.resolve('cumplida'); 
 ~~~
 
-#### Example Real 
+#### Ejemplo Real 
 ____
 
