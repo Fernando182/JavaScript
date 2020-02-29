@@ -60,3 +60,8 @@ let promesa: Promise<string> = Promise.resolve('cumplida');
 #### Ejemplo Real 
 ____
 
+
+____
+#### Video: [Here](https://www.youtube.com/watch?v=g0jySSHjFT4)
+
+
