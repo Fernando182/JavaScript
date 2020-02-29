@@ -57,11 +57,43 @@ function sumar(a: number, b: number): number{
 let promesa: Promise<string> = Promise.resolve('cumplida'); 
 ~~~
 
-#### Ejemplo Real 
+#### Ejemplo consumiendo API  
 ____
+`` let numero: number = 53;``
+api.ts
+~~~
+interface Usuario {
+    login: string;
+    name: string;
+    blog: string | null;
+    location: string | null;
+    email: null | string;
+    hireable: boolean| null;
+    bio: string | null;
+    public_repos: number;
+    public_gists: number;
+    followers: number;
+    following: number;
+}
 
+export async function getDetallesParaUsuario(
+    username: string
+):Promise<Usuario> {
+    const res = await fetch(`https://api.github.com/users/${username}`);
+    const usuario: Usuario = await res.json();
 
+    return usuario;
+}
+~~~
+
+app.ts
+~~~
+import { getDetallesParaUsuario } from './api';
+
+async function main(){
+    const fernando = await getDetallesParaUsuario('FernandoFH');
+    fernando.email?.toLocaleLowerCase();
+}
+~~~
 ____
 #### Video: [Here](https://www.youtube.com/watch?v=g0jySSHjFT4)
-
-
