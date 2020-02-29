@@ -59,7 +59,6 @@ let promesa: Promise<string> = Promise.resolve('cumplida');
 
 #### Ejemplo consumiendo API  
 ____
-`` let numero: number = 53;``
 api.ts
 ~~~
 interface Usuario {
