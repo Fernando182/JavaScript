@@ -1,7 +1,7 @@
-### Parte 1: Array Filter
+## Programacion Funcional Js
+--- 
 
-
-
+#### Parte 1: Array Filter
 
 
 --- 
