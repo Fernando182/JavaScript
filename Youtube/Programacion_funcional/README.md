@@ -1,5 +1,4 @@
 ## Programacion Funcional Js
---- 
 
 #### Parte 1: Array Filter
 
