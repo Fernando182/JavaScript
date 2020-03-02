@@ -5,3 +5,4 @@
 ### Bringing JavaScript to the IoT Edge [Here](https://www.youtube.com/watch?v=bBzRLZWlco8)
 ### Debugging NodeJS in Production with Diagnostic Reports [Here](https://www.youtube.com/watch?v=PLiar_Aj9gs)
 ### Introduction to machine learning in Node.js | Tamar Stern [Here](https://www.youtube.com/watch?v=SF8sluhCQTY)
+### Node Certification: What to expect - David Mark Clements [Here](https://www.youtube.com/watch?v=aqfixmkWOIQ)
