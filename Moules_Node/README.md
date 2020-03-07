@@ -1,6 +1,6 @@
 ## Module Node.js 
 * [PM2](https://pm2.keymetrics.io/) ✔
-* [NPM] ✔
+* [NPM](https://github.com/FernandoFH/JavaScript/blob/master/Moules_Node/NPM.md) ✔
 * [Lodash](https://lodash.com) 
 * validator.js
 * [Underscorejs](https://underscorejs.org)
