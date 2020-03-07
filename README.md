@@ -21,7 +21,6 @@
 - [ ] [Netlify](https://www.netlify.com) (Frontend Deploy)
 _____
 #### Matter
-* Yarn / NPM 
 * Flexbox
 * Cssgrid
 * SASS & LESS (PreProcesadores) 
