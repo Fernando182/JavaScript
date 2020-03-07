@@ -3,12 +3,10 @@
 -------
 | Tecnicas | Ventajas |  Desventajas |
 | :-------: | :------: | -----: |
-| Callback  | Simpleza    | 150€   |
-|            | Compatibilidad  | 150€   |
-| :-------: | :------: | -----: |
-| Promises  | 3250     | 23,65€ |
-| :-------: | :------: | -----: |
-| Async/await  | 3250     | 23,65€ |
+| Callback  | Simpleza    |    |
+|            | Compatibilidad  |   |
+| Promises  |      |  |
+| Async/await  |      |  |
 
 #### Callback 
 
