@@ -1,3 +1,15 @@
+<p align="center"> Asincronismo en Js | By <a href="https://platzi.com/r/fernandofh/" target="_blank"> Platzi</a></p>
+
+-------
+| Tecnicas | Ventajas |  Desventajas |
+| :------- | :------ | :----- |
+| Callback  | Simpleza    | Se puede volver poco intuitivo   |
+|            | Compatibilidad  |   No tenemos un camino claro para manejar los errores |
+| Promises  |  Flujo fluido    |PolyFill  |
+|   |  Manejo de Errores    |  |
+| Async/await  |  Sintaxis    | Polyfill |
+|  |   Try/catch   |  |
+
 #### Callback 
 ```javascript
 function sum(num1, num2) {
