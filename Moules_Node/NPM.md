@@ -109,4 +109,4 @@ random.randomNames();
 -------
 [NPM](https://www.npmjs.com)
 
-[Souce](https://platzi.com/clases/npm/) y un mes gratis [:)](https://platzi.com/r/fernandofh/)
+[Platzi](https://platzi.com/clases/npm/) y un mes gratis [:)](https://platzi.com/r/fernandofh/)
