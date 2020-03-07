@@ -1,5 +1,6 @@
 ## Module Node.js 
 * [PM2](https://pm2.keymetrics.io/) ✔
+* [NPM] ✔
 * [Lodash](https://lodash.com) 
 * validator.js
 * [Underscorejs](https://underscorejs.org)
