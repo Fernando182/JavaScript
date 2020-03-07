@@ -1,5 +1,5 @@
 
-<p align="center"> PM2 | Administrador de Procesos de Nodejs. Nodejs en Producción</p>
+<p align="center"> PM2 | Administrador de Procesos de Nodejs en Producción</p>
 
 ----
 #### Installation
