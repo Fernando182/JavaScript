@@ -51,14 +51,9 @@ _____
 * GPU parallel computing
 * HTTPS and RESTful APIs
 
-    * Array/object destructuring
     * Arrow functions
-    * Promises
-    * Async/await
     * Closures
     * Function composition
-    * Rest/Spread
-    * Symbol.iterator
     * The prototype chain
     * Fetch
     
