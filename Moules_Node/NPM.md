@@ -1,5 +1,6 @@
 
-<p align="center"> NPM (Node Packege Manager) | Gestor de Paquetes </p>
+<p align="center"> NPM (Node Packege Manager) | Gestor de Paquetes | Parte de la Carrera de Js en [Platzi](https://platzi.com/r/fernandofh/)
+</p>
 
 -------
 
@@ -108,4 +109,5 @@ random.randomNames();
 
 -------
 [NPM](https://www.npmjs.com)
+
 [Souce](https://platzi.com/clases/npm/) y un mes gratis [:)](https://platzi.com/r/fernandofh/)
