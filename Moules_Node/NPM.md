@@ -58,51 +58,54 @@
 ``npm audit fix``
 
 #### Crear un paquete para NPM
+**Archivo Funcionalidad a Publicar:** ``src/index.js``
 
-
-
-Crear un paquete para NPM
-Creamos nuestra función
+```javascript
 const names = [
-    'camilo',
-    'andres',
-    'luisa',
-    'ahmed',
-    'sandra',
-    'antonio',
-    'carlos'
+    'Jose',
+    'Luis',
+    'Pedro',
+    'Anita',
+    'Julia'
 ]
 const randomNames = () => {
     const name = names[Math.floor(Math.random() * name.length )];
     console.log(name)
 }
+
 module.exports = { randomNames }
-creamos la  configuración de bin para asegurarnos que es un paquete instalable global.js
+```
+
+**Archivo Configuracion para Publicar:** ``bin/global.js``
+```javascript
 #! /usr/bin/env node
 let random = require('../src/index')
 random.randomNames();
-agregamos la configuraci[on de bin al packages.json
+```
+
+**Agregamos la configuracion:** ``packages.json``
+```javascript
 "bin": {
     "random-names": "./bin/global.js"
   },
   "preferGlobal": true
+```
 
-Hacemos una referencia de forma global de nuestro paquete, tenemos que estar en la carpeta de lo contiene
-sudo npm link
-sudo npm i -g /home/rulo/PlaziMaster/cursos/npm/random-name
-Crear usuario de npm
-npm adduser
-Publicar paquete
-npm publish
-Agregar versión
-npm version patch
-npm version minor
-npm version major
+#### Hacemos referencia forma global
+``npm link``
 
+``npm i -g <RUTA>``
 
+#### Publicar paquete
+`` npm publish ``
 
+#### Actualizar paquete
+``npm version minor``
 
+``npm version patch``
 
+``npm version major``
 
 -------
-[Source](https://www.npmjs.com)
+[NPM](https://www.npmjs.com)
+[Souce](https://platzi.com/clases/npm/) y un mes gratis [:)](https://platzi.com/r/fernandofh/)
