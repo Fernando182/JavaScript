@@ -1,10 +1,21 @@
 <p align="center"> Asincronismo en Js | By <a href="https://platzi.com/r/fernandofh/" target="_blank"> Platzi</a></p>
 
 -------
-    * Promises
-    * Async/await
+| Tecnicas | Ventajas |  Desventajas |
+| :-------: | :------: | -----: |
+| Callback  | Simpleza    | 150€   |
+|            | Compatibilidad  | 150€   |
+| :-------: | :------: | -----: |
+| Promises  | 3250     | 23,65€ |
+| :-------: | :------: | -----: |
+| Async/await  | 3250     | 23,65€ |
 
-#### Version 
+#### Callback 
+
+#### Promises 
+#### Async/await 
+
+
 ``node -v ``
 
 **Archivo Configuracion para Publicar:** ``bin/global.js``
@@ -15,6 +26,4 @@ random.randomNames();
 ```
 
 -------
-[NPM](https://www.npmjs.com)
-
-[Platzi](https://platzi.com/clases/npm/) y un mes gratis [:)](https://platzi.com/r/fernandofh/)
+[Platzi](https://platzi.com/r/fernandofh/)
