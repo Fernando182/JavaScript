@@ -2,10 +2,10 @@
 - [x] [10 Days of Javascript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript)
    - Simon_Says ✔
 - [ ] [JavaScript 30](https://javascript30.com/) 
+- [ ] [Working with Data and APIs in JavaScript](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X)
 - [ ] [Javascript Algorithms](https://github.com/trekhleb/javascript-algorithms)
 - [ ] [Javascript Algorithms And Data Structures](https://www.freecodecamp.org/)  
 - [ ] [The Modern JavaScript Tutorial](https://javascript.info/)  
-- [ ] [Working with Data and APIs in JavaScript](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X)
 
 #### BackEnd 
 - [ ] [NodeYa](http://www.tutorialesprogramacionya.com/javascriptya/nodejsya/) 
