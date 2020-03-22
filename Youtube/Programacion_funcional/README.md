@@ -46,10 +46,6 @@ ___
 #### Parte 2: Array Map
 
 
-
-
-
-
 ___
 #### Playlist: [here](https://www.youtube.com/playlist?list=PLSnadb41DsdKMddToNitoXrgHK7CEbUki)
 
