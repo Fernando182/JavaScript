@@ -21,5 +21,3 @@
 - [ ] [React 30](https://www.fullstackreact.com/30-days-of-react/) 
 - [ ] [React example](https://reactjsexample.com/)
 - [ ] [Netlify](https://www.netlify.com) (Frontend Deploy)
-_____
-- [Get the job](https://github.com/FernandoFH/Programming_Interview_Study_Plan)
