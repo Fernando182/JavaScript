@@ -1,4 +1,4 @@
-// Multiplicar 2 numeros sin usar el signo *
+// Multiply 2 numbers without using the multiplication sign
 
 const multiply = (a , b) => {
     let result = 0
@@ -14,14 +14,14 @@ const multiply = (a , b) => {
 const a = multiply (5, -3)
 console.log(a)
 
-// Obtener numero mayor de un array con una sola iteracion 
+// Get Biggest number in an array with a single iteration
 
 const getBiggest = (arr) => arr.reduce((acc, el) => acc > el ? acc : el) 
 
 const b = getBiggest([50, 100, 200, -544, 458, 1000])
 console.log(b)
 
-//  iterando una sola vez un arreglo eliminar Undifene,  false,  0 y null
+// Iterating once an array remove Undefined, false, 0 and null
 
 const clean = (arr) => arr.reduce((acc, el) => {
     if (el) {
@@ -33,7 +33,7 @@ const clean = (arr) => arr.reduce((acc, el) => {
 const c = clean([1, undefined, null, 0, 2])
 console.log(c)
 
-//  Una funcion que aplane los arreglos a un nivel 
+// A function that flattens the array to one level
 
 const arr = [[1, 2], [[3,4]], [1, []]]
 // [1,2, [3,4], 1, []]
@@ -43,7 +43,7 @@ const flatten = arr => arr.reduce ((acc, el) => acc.concat(el), [])
 const d = flatten(arr)
 console.log(d)
 
-// cantidad de veces que se repite una palabra 
+// Number of times a word is repeated
 
 const repeated = str => {
     const lowered = str.toLowerCase()
@@ -62,7 +62,7 @@ const repeated = str => {
 const e = repeated('This is a repeated word test this is a a')
 console.log(e)
 
-// verificar si un strean es un palindromo 
+// check if a string is a palindrome
 
 const isPalindrome = (str) => {
     str = str.replace(/\s/g, '')
