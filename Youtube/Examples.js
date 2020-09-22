@@ -32,3 +32,47 @@ const clean = (arr) => arr.reduce((acc, el) => {
 
 const c = clean([1, undefined, null, 0, 2])
 console.log(c)
+
+//  Una funcion que aplane los arreglos a un nivel 
+
+const arr = [[1, 2], [[3,4]], [1, []]]
+// [1,2, [3,4], 1, []]
+
+const flatten = arr => arr.reduce ((acc, el) => acc.concat(el), [])
+
+const d = flatten(arr)
+console.log(d)
+
+// cantidad de veces que se repite una palabra 
+
+const repeated = str => {
+    const lowered = str.toLowerCase()
+    const splitted = lowered.split(' ')
+    const reduced = splitted.reduce((acc, el) => {
+        if(acc[el]){
+            acc[el]++
+        } else {
+            acc[el] = 1 
+        }
+        return acc
+    }, {})  
+    return Object.entries(reduced).reduce((acc, el) => acc[1] > el[1] ? acc : el)
+}
+
+const e = repeated('This is a repeated word test this is a a')
+console.log(e)
+
+// verificar si un strean es un palindromo 
+
+const isPalindrome = (str) => {
+    str = str.replace(/\s/g, '')
+    const lowered = str.toLowerCase()
+    const splitted = lowered.split('')
+    const reversed = splitted.reverse()
+    const joined = reversed.join('')
+
+    return lowered == joined
+}
+
+const f = isPalindrome('Tana')
+console.log(f)
